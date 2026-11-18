@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Sergio Zúñiga Galíndez — Arquitecto de soluciones</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 9mm 12mm 9mm 12mm;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      color: #1a1a1a;
+      font-family: Inter, "Liberation Sans", Arial, sans-serif;
+      font-size: 9.05pt;
+      line-height: 1.26;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 16.5pt;
+      line-height: 1.05;
+      letter-spacing: 0.01em;
+      font-weight: 650;
+    }
+
+    .headline {
+      margin: 1.5px 0 0;
+      color: #1f4e79;
+      font-size: 10pt;
+      font-weight: 620;
+    }
+
+    .contact {
+      margin: 2px 0 0;
+      color: #333;
+      font-size: 8.7pt;
+    }
+
+    h2 {
+      margin: 7px 0 3px;
+      padding-bottom: 1px;
+      border-bottom: 1.25px solid #1f4e79;
+      color: #1f4e79;
+      font-size: 10pt;
+      font-weight: 670;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      break-after: avoid;
+    }
+
+    p { margin: 0 0 4px; }
+
+    .profile p + p { margin-top: 3px; }
+
+    .skills { margin: 0; }
+    .skills div { margin: 0 0 1.5px; }
+    .skills strong { font-weight: 650; }
+
+    .role { margin: 0 0 5px; }
+    .role-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: baseline;
+      break-after: avoid;
+    }
+    .role-title { font-weight: 670; font-size: 9.6pt; }
+    .role-meta { color: #333; font-size: 8.5pt; white-space: nowrap; }
+    .role-lead { margin: 1px 0 2px; }
+
+    .project { margin: 3px 0 0; break-inside: avoid; }
+    .project-title { font-weight: 650; }
+
+    ul { margin: 1px 0 0; padding-left: 14px; }
+    li { margin: 0 0 1px; padding: 0; }
+    .stack {
+      margin: 1px 0 0;
+      color: #333;
+      font-size: 8.3pt;
+    }
+
+    .compact li { margin: 0; }
+    .two { margin: 0; }
+    .two div { margin: 0 0 1px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sergio Zúñiga Galíndez</h1>
+    <p class="headline">Arquitecto de soluciones · AWS Certified Solutions Architect</p>
+    <p class="contact">sergio.zuniga.091@gmail.com · +57 302 291 3357 · Cali, Colombia</p>
+  </header>
+
+  <h2>Perfil profesional</h2>
+  <section class="profile">
+    <p>Arquitecto de soluciones con 17 años en ingeniería de software y 9 definiendo la arquitectura de proyectos de alto impacto en banca, energía, salud y consumo. Diseño soluciones seguras y escalables en AWS y Azure, y traduzco el problema del cliente en una decisión técnica trazable.</p>
+    <p>Elicito atributos de calidad con QAW, evalúo trade-offs con ATAM y modelo el dominio con Event Storming y DDD. Documento con ADR, C4 y 4+1, y contrasto cada decisión con el Well-Architected Framework. He dejado estándares de integración, seguridad y calidad que otros equipos reutilizan, con clientes en Colombia, México, Panamá y Puerto Rico.</p>
+  </section>
+
+  <h2>Competencias</h2>
+  <section class="skills">
+    <div><strong>Arquitectura.</strong> Cloud-native, microservicios, event-driven, serverless, Clean Architecture, DDD, CQRS, API First, SOA, Well-Architected Framework (AWS y Azure), C4, 4+1, ADR, Y-Statements, QAW, ATAM, Event Storming y matrices de decisión.</div>
+    <div><strong>Nube.</strong> AWS (EC2, S3, Lambda, ECS, EKS, RDS, IAM). Azure (AKS, API Management, Service Bus, Event Grid, Functions, Logic Apps, App Service, Entra ID, Cosmos DB, Data Factory, AI Services).</div>
+    <div><strong>Integración y datos.</strong> Contratos de API, OAuth 2.0, OpenID Connect, mensajería asíncrona, ETL/ELT, Azure Data Factory, SQL Server, PostgreSQL, Cosmos DB, MySQL y Neo4j.</div>
+    <div><strong>Seguridad y entrega.</strong> SSO, IAM, Entra ID, SonarQube, DAST, CI/CD, Docker, Kubernetes, Azure DevOps y GitLab CI.</div>
+    <div><strong>Liderazgo.</strong> Due diligence técnico, estándares reutilizables, priorización por riesgo, deuda técnica, mentoría de equipos y liderazgo técnico de clientes. Scrumban, Scrum y Kanban.</div>
+  </section>
+
+  <h2>Experiencia profesional</h2>
+
+  <article class="role">
+    <div class="role-head">
+      <div class="role-title">Arquitecto de soluciones — SoftwareOne</div>
+      <div class="role-meta">Dic 2021 — presente · Colombia, remoto</div>
+    </div>
+    <p class="role-lead">Consultoría de arquitectura para clientes enterprise en Colombia, México y Panamá. Diseño de la solución, due diligence técnico, estándares y liderazgo de equipos bajo Scrumban.</p>
+
+    <div class="project">
+      <div class="project-title">XM — Interoperabilidad del mercado eléctrico (2024 — presente)</div>
+      <ul>
+        <li>Arquitecto de la célula de interoperabilidad de XM, operador del mercado eléctrico colombiano. Acompañé a otras células para integrar aplicaciones sobre un stack común.</li>
+        <li>Definí las arquitecturas de integración entre microservicios con Azure Service Bus, Event Grid, Logic Apps y Azure Functions, documentadas con ADR y due diligence para que otros equipos las reutilizaran. La evaluación y la documentación se apoyaron en agentes de IA; la calidad y la seguridad de los entregables, en SonarQube y DAST.</li>
+      </ul>
+      <p class="stack">Stack: Azure Service Bus, Event Grid, Logic Apps, Azure Functions, Azure Data Factory, C#, SonarQube, DAST.</p>
+    </div>
+
+    <div class="project">
+      <div class="project-title">Bepensa México — Middleware de catálogo y pedidos (2023 — 2024)</div>
+      <ul>
+        <li>Arquitecto del middleware de catálogo, validación y generación de pedidos y datos precalculados para una embotelladora mexicana.</li>
+        <li>Diseñé la solución de extremo a extremo con Clean Architecture: contratos de API, validaciones de negocio y atributos de calidad acordados con el cliente mediante QAW.</li>
+        <li>Dejé un esquema de entrega reutilizable: mocks de contrato en Postman, SonarQube y pipelines de CI/CD en Azure DevOps.</li>
+      </ul>
+      <p class="stack">Stack: Angular, C#, .NET, Azure DevOps, SonarQube, Postman, QAW.</p>
+    </div>
+
+    <div class="project">
+      <div class="project-title">Banco Pichincha — Migración de un portafolio .NET (2022 — 2023)</div>
+      <ul>
+        <li>Lideré la estrategia de migración de más de 12 aplicaciones bancarias críticas, desde frameworks .NET legados hacia tecnologías con soporte vigente.</li>
+        <li>Prioricé el portafolio por riesgo técnico y definí patrones de migración y un roadmap por etapas, dentro de las restricciones del sector financiero.</li>
+      </ul>
+      <p class="stack">Stack: .NET, Azure, Azure DevOps, SQL Server, CI/CD.</p>
+    </div>
+
+    <div class="project">
+      <div class="project-title">ENSA Panamá — Recaudo móvil (2022)</div>
+      <ul>
+        <li>Diseñé la arquitectura multiplataforma en React Native para el recaudo de una distribuidora de energía, con Clean Architecture en iOS y Android.</li>
+        <li>Esa decisión redujo un 30&nbsp;% el tiempo de entrega frente a un desarrollo nativo.</li>
+      </ul>
+      <p class="stack">Stack: React Native, C#, .NET, Azure, Azure DevOps.</p>
+    </div>
+
+    <div class="project">
+      <div class="project-title">Humano, Puerto Rico — Pipeline de datos para un chatbot (2022)</div>
+      <ul>
+        <li>Diseñé la ingestión, transformación y carga con Azure Data Factory para alimentar la base de conocimiento de un chatbot con Azure OpenAI, a partir de datos clínicos estructurados.</li>
+      </ul>
+      <p class="stack">Stack: Azure Data Factory, Azure OpenAI, .NET.</p>
+    </div>
+
+    <div class="project">
+      <div class="project-title">Yanbal — Mensajería de alto volumen (2022)</div>
+      <ul>
+        <li>Diseñé una biblioteca sobre Azure Service Bus, en .NET y Java, para alto volumen y procesamiento paralelo. Se adoptó como estándar de mensajería de los microservicios de Yanbal en tres países.</li>
+      </ul>
+      <p class="stack">Stack: .NET, Java, Azure Service Bus.</p>
+    </div>
+
+    <div class="project">
+      <div class="project-title">Griffith Foods — Plataforma de maridaje de ingredientes (2022)</div>
+      <ul>
+        <li>Definí una arquitectura serverless en Azure Functions para crear y gestionar maridajes de una compañía global de ingredientes alimentarios.</li>
+      </ul>
+      <p class="stack">Stack: Azure Functions, C#, .NET.</p>
+    </div>
+  </article>
+
+  <article class="role">
+    <div class="role-head">
+      <div class="role-title">Arquitecto de software — Grupo Digital</div>
+      <div class="role-meta">Ago 2020 — dic 2021 · Colombia</div>
+    </div>
+    <ul>
+      <li>Diseñé y lideré el core de negocio en AWS con microservicios, preparado para escalar en horizontal con el portafolio.</li>
+      <li>Lideré el módulo de seguridad empresarial (SSO, OAuth 2.0 y OpenID Connect), adoptado por todas las aplicaciones del grupo.</li>
+      <li>Reduje la deuda técnica un 40&nbsp;% con revisiones periódicas de arquitectura y métricas de SonarQube.</li>
+      <li>Mentoricé a 8 desarrolladores en SOLID, Clean Architecture y DevOps.</li>
+    </ul>
+    <p class="stack">Stack: .NET, microservicios, AWS, React, GitLab, PostgreSQL, SQL Server, Docker, CI/CD.</p>
+  </article>
+
+  <article class="role">
+    <div class="role-head">
+      <div class="role-title">Arquitecto de soluciones — Intergrupo</div>
+      <div class="role-meta">May 2018 — jul 2020 · Colombia</div>
+    </div>
+    <ul>
+      <li>Arquitecto principal del laboratorio clínico de la IPS Consorcio Salud, plataforma de misión crítica con más de 500.000 registros de pacientes.</li>
+      <li>Gestioné las arquitecturas del Banco Agrario de Colombia bajo estándares del sector financiero y su cumplimiento regulatorio.</li>
+      <li>Integré más de 8 sistemas heterogéneos con el bus TIBCO en una arquitectura SOA y retiré las integraciones punto a punto.</li>
+      <li>Implementé el ciclo de vida ALM en Azure DevOps y bajé el tiempo de liberación de semanas a días.</li>
+    </ul>
+    <p class="stack">Stack: SOA, TIBCO, .NET, ASP.NET, WCF, Azure DevOps, SQL Server, SonarQube, Angular.</p>
+  </article>
+
+  <article class="role">
+    <div class="role-head">
+      <div class="role-title">Arquitecto de soluciones — Stefanini</div>
+      <div class="role-meta">Oct 2017 — abr 2018 · Colombia</div>
+    </div>
+    <ul>
+      <li>Lideré la migración del sistema financiero y contable de Cavipetrol, integrando CRM, Active Directory y sistemas legados.</li>
+      <li>Con una arquitectura REST de N capas reduje un 60&nbsp;% el tiempo de carga de los reportes.</li>
+    </ul>
+    <p class="stack">Stack: REST, ASP.NET, C#, Web API, Angular 4, SQL Server, Azure DevOps.</p>
+  </article>
+
+  <article class="role">
+    <div class="role-head">
+      <div class="role-title">Desarrollador senior / arquitecto de software — OIM e ICBF</div>
+      <div class="role-meta">Mar 2016 — oct 2017 · Colombia</div>
+    </div>
+    <ul>
+      <li>ICBF: arquitecto del Sistema de Información Misional (SIM), plataforma nacional de gestión de programas sociales.</li>
+      <li>OIM: diseñé la migración a MVC de RUSICST, reporte de política pública para víctimas del conflicto armado, usado por entidades del Estado.</li>
+    </ul>
+    <p class="stack">Stack: ASP.NET MVC, Web API, AngularJS, SQL Server, TFS, SharePoint.</p>
+  </article>
+
+  <article class="role">
+    <div class="role-head">
+      <div class="role-title">Ingeniero de desarrollo de software — Axon Group y otras firmas</div>
+      <div class="role-meta">Ene 2007 — feb 2016 · Colombia</div>
+    </div>
+    <ul>
+      <li>Ocho años en desarrollo web y automatización con .NET y Java EE, con decisiones de arquitectura en los proyectos y más de 15 sistemas de información para distintas industrias.</li>
+    </ul>
+  </article>
+
+  <h2>Certificaciones</h2>
+  <section class="two compact">
+    <div>AWS Certified Solutions Architect — Amazon Web Services · vigente.</div>
+    <div>Scrum Master Certified (SMC) — International Scrum Institute · vigente.</div>
+    <div>Aplicaciones de procesamiento de imágenes al control de calidad — SENA · 2011.</div>
+    <div>ISO 9000, gestión de la calidad — SENA · 2007.</div>
+  </section>
+
+  <h2>Formación</h2>
+  <section class="two">
+    <div><strong>Magíster en Sistemas Mecatrónicos.</strong> Universidad de Brasilia, Brasil · noviembre de 2015.</div>
+    <div><strong>Ingeniero en Automática Industrial.</strong> Universidad del Cauca, Popayán · octubre de 2006. Promedio 4,03 / 5,0. Matrículas de honor en los semestres 6, 7 y 8.</div>
+  </section>
+
+  <h2>Idiomas</h2>
+  <p>Español, nativo. Portugués: lectura, escritura y conversación altas. Inglés: lectura alta, escritura media y conversación intermedia.</p>
+
+  <h2>Publicaciones y ponencias</h2>
+  <section class="two">
+    <div>Zúñiga, S. et al. Sistema colaborativo para el monitoreo remoto de equipos médicos de videolaparoscopia. Framework WebE y patrón MVC. Diciembre de 2015.</div>
+    <div>Zúñiga, S. y Santos, A. Tipos de conocimiento en la fase de proyecto informacional: propuesta para el desarrollo de un sistema colaborativo. Julio de 2013.</div>
+    <div>Implementación de una red industrial CAN bajo un sistema SCADA. VII Congreso ACA, Pontificia Universidad Javeriana, Cali. Marzo de 2007.</div>
+  </section>
+</body>
+</html>
