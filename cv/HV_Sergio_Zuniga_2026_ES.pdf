@@ -36,7 +36,7 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 7805
+/Length 7923
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -84,23 +84,23 @@ Q
 q
 1 0 0 1 69 502.8898 cm
 q
-BT 1 0 0 1 0 130.5 Tm 5.391509 Tw 14 TL /F1 9.5 Tf .180392 .180392 .180392 rg (Domina arquitecturas cloud-native y patrones de integraci) Tj (\363) Tj (n enterprise \227 microservicios, Clean) Tj T* 0 Tw 4.073859 Tw (Architecture, DDD, CQRS, Event-Driven, Publish/Subscribe, SOA, REST, GraphQL y serverless \227) Tj T* 0 Tw -0.111779 Tw (traduciendo requisitos de negocio en decisiones t) Tj (\351) Tj (cnicas s) Tj (\363) Tj (lidas, trazables y sostenibles en el tiempo. Elicita) Tj T* 0 Tw 1.284042 Tw (y prioriza atributos de calidad con QAW, eval) Tj (\372) Tj (a trade-offs arquitect) Tj (\363) Tj (nicos con ATAM, y documenta cada) Tj T* 0 Tw 3.438424 Tw (decisi) Tj (\363) Tj (n con ADR, Y-Statements y Decision Matrix \227 validando siempre contra el Well-Architected) Tj T* 0 Tw 3.569049 Tw (Framework. Modela dominios complejos con Event Storming y comunica la arquitectura a distintas) Tj T* 0 Tw 2.293225 Tw (audiencias con C4 Model y 4+1. Dise\361a e implementa agentes de IA sobre modelos de frontera que) Tj T* .325392 Tw (automatizan flujos de trabajo transversales al equipo, reduciendo fricci\363n operativa, acelerando la entrega y) Tj T* 1.398043 Tw (mejorando la productividad propia y la de los desarrolladores. Como una alternativa m\341s, desarrolla con) Tj T* .082046 Tw (OpenSpec: la especificaci\363n orienta lo que el agente implementa. Integra DevSecOps \227 CI/CD, SonarQube) Tj T* 0 Tw (y DAST \227 como parte estructural del ciclo de entrega y el gobierno t\351cnico.) Tj T* ET
+BT 1 0 0 1 0 130.5 Tm 5.391509 Tw 14 TL /F1 9.5 Tf .180392 .180392 .180392 rg (Domina arquitecturas cloud-native y patrones de integraci) Tj (\363) Tj (n enterprise \227 microservicios, Clean) Tj T* 0 Tw 4.073859 Tw (Architecture, DDD, CQRS, Event-Driven, Publish/Subscribe, SOA, REST, GraphQL y serverless \227) Tj T* 0 Tw -0.111779 Tw (traduciendo requisitos de negocio en decisiones t) Tj (\351) Tj (cnicas s) Tj (\363) Tj (lidas, trazables y sostenibles en el tiempo. Elicita) Tj T* 0 Tw 1.284042 Tw (y prioriza atributos de calidad con QAW, eval) Tj (\372) Tj (a trade-offs arquitect) Tj (\363) Tj (nicos con ATAM, y documenta cada) Tj T* 0 Tw 3.438424 Tw (decisi) Tj (\363) Tj (n con ADR, Y-Statements y Decision Matrix \227 validando siempre contra el Well-Architected) Tj T* 0 Tw 3.569049 Tw (Framework. Modela dominios complejos con Event Storming y comunica la arquitectura a distintas) Tj T* 0 Tw 2.293225 Tw (audiencias con C4 Model y 4+1. Dise\361a e implementa agentes de IA sobre modelos de frontera que) Tj 14 TL T* .325392 Tw (automatizan flujos de trabajo transversales al equipo, reduciendo fricci\363n operativa, acelerando la entrega y) Tj 14 TL T* 0 Tw (mejorando la productividad propia y la de los desarrolladores.) Tj 20 TL T* 3.134540 Tw (Desarrolla con OpenSpec: la propuesta de cambio, los requisitos, el dise\361o y las tareas forman la) Tj 14 TL T* .457440 Tw (especificaci\363n, y el agente implementa sobre ella con trazabilidad de punta a punta. Integra DevSecOps \227) Tj 14 TL T* 0 Tw (CI/CD, SonarQube y DAST \227 como parte estructural del ciclo de entrega y el gobierno t\351cnico.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 443.8898 cm
+1 0 0 1 69 423.8898 cm
 q
 BT 1 0 0 1 0 32.5 Tm .826068 Tw 14 TL /F1 9.5 Tf .180392 .180392 .180392 rg (Su fortaleza est) Tj (\341 en el liderazgo de equipos multidisciplinarios de alto rendimiento y la gesti) Tj (\363) Tj (n de clientes) Tj T* 0 Tw 2.881326 Tw (internacionales en entornos multiculturales, impulsando la entrega de valor bajo metodolog) Tj (\355) Tj (as \341) Tj (giles.) Tj T* 0 Tw (Mag) Tj (\355) Tj (ster en Sistemas Mecatr) Tj (\363) Tj (nicos \227 Universidad de Brasilia, Brasil.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 419.8898 cm
+1 0 0 1 69 399.8898 cm
 q
 BT 1 0 0 1 0 4 Tm 14 TL /F2 10 Tf .121569 .305882 .47451 rg (HABILIDADES T) Tj (\351) Tj (CNICAS) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 416.8898 cm
+1 0 0 1 69 396.8898 cm
 q
 1 w
 1 J
@@ -109,68 +109,68 @@ n 0 0 m 457.2756 0 l S
 Q
 Q
 q
-1 0 0 1 69 370.8898 cm
+1 0 0 1 69 350.8898 cm
 q
 BT 1 0 0 1 0 32.5 Tm 14 TL /F2 9.5 Tf .180392 .180392 .180392 rg (Cloud:) Tj /F1 9.5 Tf ( Azure \(Azure Containers, API Management, AKS, App Service, Service Bus, Event Grid, Logic Apps,) Tj T* (Azure Functions, Entra ID, CosmosDB, Azure AI Services, Azure Data Factory\) \267 AWS \(EC2, S3, Lambda,) Tj T* (ECS, EKS, RDS, IAM\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 311.8898 cm
+1 0 0 1 69 291.8898 cm
 q
 BT 1 0 0 1 0 46.5 Tm 14 TL /F2 9.5 Tf .180392 .180392 .180392 rg (Arquitectura:) Tj /F1 9.5 Tf ( Cloud-native \267 Microservicios \267 Microfrontend \267 Clean Architecture \267 DDD \267 CQRS \267) Tj T* (Event-Driven \267 Message-Driven \267 REST \267 Serverless \267 API First \267 Well-Architected Framework \(AWS/Azure\) \267) Tj T* (QAW \267 ATAM \267 ADR \267 Y-Statements \267 Decision Matrix \267 C4 Model \267 4+1 \267 Event Storming \267 SOLID \267 12-Factor) Tj T* (App) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 280.8898 cm
+1 0 0 1 69 260.8898 cm
 q
 BT 1 0 0 1 0 18.5 Tm 14 TL /F2 9.5 Tf .180392 .180392 .180392 rg (Interoperabilidad & Integraci) Tj (\363) Tj (n:) Tj /F1 9.5 Tf ( Azure Service Bus \267 Event Grid \267 Logic Apps \267 Azure Data Factory \267) Tj T* (ETL/ELT \267 API Gateway \(APIM\) \267 OAuth2 \267 OpenID Connect) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 249.8898 cm
+1 0 0 1 69 229.8898 cm
 q
 BT 1 0 0 1 0 18.5 Tm 14 TL /F2 9.5 Tf .180392 .180392 .180392 rg (DevOps & Calidad:) Tj /F1 9.5 Tf ( Docker \267 Kubernetes \267 CI/CD \267 Azure DevOps \(Pipelines \267 Release\) \267 GitLab CI \267) Tj T* (SonarQube \267 DAST \267 Mocks Postman \267 TDD \267 BDD) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 232.8898 cm
+1 0 0 1 69 212.8898 cm
 q
 BT 1 0 0 1 0 4.5 Tm 14 TL /F2 9.5 Tf .180392 .180392 .180392 rg (Backend:) Tj /F1 9.5 Tf ( .NET Core \267 C# \267 ASP.NET MVC \267 WebAPI \267 WCF \267 Node.js \267 Python \267 Java) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 215.8898 cm
+1 0 0 1 69 195.8898 cm
 q
 BT 1 0 0 1 0 4.5 Tm 14 TL /F2 9.5 Tf .180392 .180392 .180392 rg (Frontend & Mobile:) Tj /F1 9.5 Tf ( React \267 React Native \267 Angular \267 JavaScript \267 TypeScript \267 HTML \267 CSS3) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 198.8898 cm
+1 0 0 1 69 178.8898 cm
 q
 BT 1 0 0 1 0 4.5 Tm 14 TL /F2 9.5 Tf .180392 .180392 .180392 rg (Bases de Datos:) Tj /F1 9.5 Tf ( SQL Server \267 PostgreSQL \267 CosmosDB \267 Neo4j \267 MySQL) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 167.8898 cm
+1 0 0 1 69 147.8898 cm
 q
 BT 1 0 0 1 0 18.5 Tm 14 TL /F2 9.5 Tf .180392 .180392 .180392 rg (IA Aplicada:) Tj /F1 9.5 Tf ( Azure OpenAI \267 Azure AI Services \267 Azure Data Factory \(RAG data pipelines\) \267 Dise) Tj (\361) Tj (o e) Tj T* (implementaci) Tj (\363) Tj (n de agentes de IA \267 Prompt engineering para an) Tj (\341) Tj (lisis y generaci) Tj (\363) Tj (n de artefactos \267 OpenSpec) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 136.8898 cm
+1 0 0 1 69 116.8898 cm
 q
 BT 1 0 0 1 0 18.5 Tm 14 TL /F2 9.5 Tf .180392 .180392 .180392 rg (Metodolog) Tj (\355) Tj (as:) Tj /F1 9.5 Tf ( Scrumban \267 Scrum \267 Kanban \267 QAW \267 ATAM \267 ADR \267 Y-Statements \267 Decision Matrix \267 C4) Tj T* (Model \267 Event Storming \267 Due Diligence t) Tj (\351) Tj (cnico \267 ALM \(Azure DevOps \267 GitLab\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 112.8898 cm
+1 0 0 1 69 92.8898 cm
 q
 .121569 .305882 .47451 rg
 BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (EXPERIENCIA PROFESIONAL) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 109.8898 cm
+1 0 0 1 69 89.8898 cm
 q
 1 w
 1 J
@@ -179,20 +179,20 @@ n 0 0 m 457.2756 0 l S
 Q
 Q
 q
-1 0 0 1 69 87.8898 cm
+1 0 0 1 69 67.8898 cm
 q
 .121569 .305882 .47451 rg
 BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (Arquitecto de Soluciones) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 73.88976 cm
+1 0 0 1 69 53.88976 cm
 q
 BT 1 0 0 1 0 3.5 Tm 13 TL /F2 9.5 Tf .180392 .180392 .180392 rg (SoftwareOne) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj /F3 9.5 Tf (Diciembre 2021 \227 Presente) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (Colombia \(remoto\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 69 45.88976 cm
+1 0 0 1 69 25.88976 cm
 q
 BT 1 0 0 1 0 16.5 Tm 2.378383 Tw 13 TL /F4 9.5 Tf .34902 .34902 .34902 rg (Consultor) Tj (\355) Tj (a de arquitectura para clientes enterprise en Colombia, M) Tj (\351) Tj (xico y Panam) Tj (\341) Tj (. Responsable del) Tj T* 0 Tw 1.469971 Tw (dise) Tj (\361) Tj (o de soluciones, due diligence t) Tj (\351) Tj (cnico, definici) Tj (\363) Tj (n de est) Tj (\341) Tj (ndares y liderazgo de equipos \341) Tj (giles bajo) Tj T* 0 Tw ET
 Q
@@ -338,19 +338,19 @@ xref
 0000000134 00000 n 
 0000000200 00000 n 
 0000000399 00000 n 
-0000008256 00000 n 
-0000008329 00000 n 
-0000008436 00000 n 
-0000008548 00000 n 
-0000008667 00000 n 
-0000008783 00000 n 
-0000008867 00000 n 
-0000009068 00000 n 
-0000011872 00000 n 
-0000012073 00000 n 
-0000014893 00000 n 
-0000015094 00000 n 
-0000016938 00000 n 
+0000008374 00000 n 
+0000008447 00000 n 
+0000008554 00000 n 
+0000008666 00000 n 
+0000008785 00000 n 
+0000008901 00000 n 
+0000008985 00000 n 
+0000009186 00000 n 
+0000011990 00000 n 
+0000012191 00000 n 
+0000015011 00000 n 
+0000015212 00000 n 
+0000017056 00000 n 
 trailer
 <<
 /Size 19
@@ -358,5 +358,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-16960
+17078
 %%EOF
