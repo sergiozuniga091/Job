@@ -28,7 +28,8 @@ Cada hoja de vida tiene su propio HTML y se edita por separado. El PDF siempre s
 3. **Español e inglés van sincronizados.** Todo cambio de contenido en `general/es` se refleja en `general/en`, y al revés.
 4. **Personalizar es reordenar y reenfocar, no agregar hechos.** En una versión por empresa se puede reescribir el perfil, cambiar el orden de habilidades y proyectos, ajustar el título y el énfasis de los logros, y quitar lo que no aporta a la vacante.
 5. **Mantener 4 páginas como máximo** y el diseño de `estilos/hoja-de-vida.css`. Si una versión necesita un ajuste de diseño propio, se hace con un `<style>` dentro de su HTML, no en el CSS común.
-6. **Datos que no cambian sin confirmación de Sergio:** nombre, correo, teléfono, ciudad, fechas de cada cargo, certificaciones, títulos académicos y niveles de idioma. Excepción ya acordada: en versiones para vacantes que pidan inglés B2, el inglés se muestra como B2.
+6. **Fechas por empresa, no por proyecto.** Las fechas van solo en la línea de cada empresa (`class="place"`). Los títulos de proyecto no llevan años.
+7. **Datos que no cambian sin confirmación de Sergio:** nombre, correo, teléfono, ciudad, fechas de cada cargo, certificaciones, títulos académicos y niveles de idioma. Excepción ya acordada: en versiones para vacantes que pidan inglés B2, el inglés se muestra como B2.
 
 ## Estilo de redacción
 
